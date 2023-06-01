@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <meta charset="UTF-8">
+    <title>Dino Run Game</title>
+    <link rel="stylesheet" href="style.css">
+</header>
+<body style="background-color:#0e83f8">
+
+
+   
+   
+   <canvas id="myCanvas" 
+      width="390" 
+      height="150" 
+      style="border:1px solid #ffffff;" >
+      
+   </canvas>
+   
+   <script>
+       var c = document.getElementById("myCanvas");
+       var ctx = c.getContext("2d");
+       ctx.font = "30px Arial";
+       ctx.strokeText("DINO RUN GAME",70,70,) ;
+       
+    </script>
+    
+    <div id="container">
+
+        <div id="dino">
+            <img src="slike/dino.png" alt="dino">
+        </div>
+        <div id="block">
+            <img src="slike/block.png" alt="blocks">
+        </div>
+        <div id="road">
+            <img src="slike/road.png" alt="road">
+        </div>
+        <div id="score">Score <b>00</b></div>
+        <div id="gameOver" style="color:rgb(255, 255, 255);">Game Over</div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+<footer> <P>GAME FOR FUN</P> </footer>
+
+</html>
