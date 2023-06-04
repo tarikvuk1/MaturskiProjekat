@@ -1,0 +1,1 @@
+Nedostaje packager manager za pokretanje projekta
